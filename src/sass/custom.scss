@@ -10,3 +10,12 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.not-found-page {
+  width: 100dvw;
+  height: 100dvh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

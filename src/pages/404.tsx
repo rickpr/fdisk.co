@@ -1,12 +1,12 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
-import Layout from '../components/layout'
-
 const NotFoundPage = (): JSX.Element => (
-  <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+  <div className='not-found-page'>
+    <div style={{ fontSize: '8em', fontWeight: 900 }}>404</div>
+    <Link to='/'>Go back to the homepage</Link>
+  </div>
+
 )
 
 export default NotFoundPage

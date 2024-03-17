@@ -8,9 +8,6 @@
     "Adalida Baca <adalida@adalida.design>"
   ],
   "dependencies": {
-    "@react-three/drei": "^9.97.6",
-    "@react-three/fiber": "^8.15.16",
-    "@tabler/icons-react": "^2.47.0",
     "gatsby": "5.13.3",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
