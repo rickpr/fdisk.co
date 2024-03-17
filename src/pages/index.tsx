@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-import Portfolio from './portfolio'
+import Main from '../components/main'
 
-const Root = (): JSX.Element => <Portfolio />
+const Root = (): JSX.Element => {
+  const layoutRef = useRef(null)
+  return (
+    <div ref={layoutRef} style={{ height: '100dvh', background: '#000000' }}>
+      <Main />
+    </div>
+  )
+}
 
-export const Head = (): JSX.Element => <title>Adalida Baca</title>
 export default Root

@@ -1,58 +1,12 @@
-$theme-colors: (
-  danger: #ffffff,
-  dark: #000000,
-  info: #440BD4,
-  primary: #e92efb,
-  success: #39ff14,
-  warning: #ff2079
-);
-
-@import './adalida_page';
-
 @font-face {
   font-family: 'Inconsolata';
   src: local('Inconsolata'), url(../fonts/Inconsolata-VariableFont_wdth,wght.ttf);
 }
 
-@font-face {
-  font-family: 'Avenir Next';
-  src: local('Avenir Next'), url(../fonts/AvenirNextLTPro-Regular.otf);
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  src: local('Work Sans'), url(../fonts/WorkSans-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: 'Work Sans Italic';
-  src: local('Work Sans Italic'), url(../fonts/WorkSans-Italic-VariableFont_wght.ttf);
-  font-weight: italic;
-}
-
-html {
-  overscroll-behavior: none;
-}
-
 body {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
   margin: 0;
-  overscroll-behavior: none;
 }
 
 * {
   box-sizing: border-box;
-}
-
-h1 h2 h3 h4 h5 h6 {
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-}
-
-hr {
-  border-top: 2px solid black;
-  opacity: 1;
 }

@@ -1,10 +1,10 @@
-# Ricardo and Adalida's homepage
-This personal webpage is for fun, practice, and to show off a bit of a portfolio.
+# Ricardo's homepage
+This personal webpage is for fun and practice.
 
 ## 🚀 Quick start
     ```shell
-    git clone https://github.com/rickpr/timeline
-    cd timeline
+    git clone https://github.com/rickpr/fdisk.co
+    cd fdisk.co
     npm install
     npm start
     ```
