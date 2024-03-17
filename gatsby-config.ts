@@ -1,6 +1,9 @@
 import path from 'path'
 
+import GatsbyAdapterNetlify from 'gatsby-adapter-netlify'
+
 module.exports = {
+  adapter: GatsbyAdapterNetlify({ excludeDatastoreFromEngineFunction: false }),
   siteMetadata: {
     title: 'Ricardo',
     description: 'Ricardo website',

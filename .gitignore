@@ -70,6 +70,3 @@ yarn-error.log
 
 # Local Netlify folder
 .netlify
-
-# Storybook build
-storybook-static
