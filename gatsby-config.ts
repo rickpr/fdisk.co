@@ -27,13 +27,14 @@ module.exports = {
       }
     },
     'gatsby-plugin-image',
+    'gatsby-plugin-postcss',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Ricardo Page',
-        short_name: 'timeline',
+        name: 'Ricardo Piro-Rael',
+        short_name: 'fdisk.co',
         start_url: '/',
         background_color: '#121212',
         theme_color: '#121212',

@@ -3,4 +3,4 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
-import './src/sass/custom.scss'
+import './src/sass/index.scss'

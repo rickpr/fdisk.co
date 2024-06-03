@@ -28,10 +28,8 @@ const Box = (props: MeshProps): JSX.Element => {
     const goToLink = (event: MouseEvent): void => {
       if (
         currentLink.current !== null &&
-          // @ts-expect-error these refs should be initialized by now
-          event.clientX === mousePositionWhenClicking.current.x &&
-          // @ts-expect-error these refs should be initialized by now
-          event.clientY === mousePositionWhenClicking.current.y
+          event.clientX === mousePositionWhenClicking.current?.x &&
+          event.clientY === mousePositionWhenClicking.current?.y
       ) {
         window.open(currentLink.current, '_blank')
       }

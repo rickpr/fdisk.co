@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Inconsolata';
   src: local('Inconsolata'), url(../fonts/Inconsolata-VariableFont_wdth,wght.ttf);
@@ -5,6 +9,8 @@
 
 body {
   margin: 0;
+  text-shadow: 0 0 0.5em;
+  font-family: 'Inconsolata', monospace;
 }
 
 * {

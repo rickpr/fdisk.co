@@ -4,13 +4,11 @@ import React from 'react'
 
 import 'highlight.js/styles/base16/darcula.css'
 
-import { styles } from './style'
-
 hljs.registerLanguage('shell', shell)
 
 const CodeBlock = ({ children, language }: { children: string, language: string }): JSX.Element => (
   <div
-    style={styles.codeBlock}
+    className='rounded-lg p-2 border border-solid border-warning text-secondary bg-base-300'
     dangerouslySetInnerHTML={{
       __html: hljs.highlight(children, { language }).value
     }}>
