@@ -24,10 +24,10 @@ import Wood from 'images/scene/wood.png'
 import UvEdit from 'images/scene/uv_edit.webp'
 import FinalRender from 'images/scene/final_render.webp'
 
-import CodeBlock from './code_block'
+import CodeBlock from '../code_block'
+import Title from '../title'
 import DeskScene from './desk_scene'
 import InlineCode from './inline_code'
-import Title from './title'
 
 const Scene = (): JSX.Element => {
   return (
@@ -351,8 +351,7 @@ const Scene = (): JSX.Element => {
         <h2 className='flex items-center text-error'>5. Next Steps</h2>
         <p>
           I&apos;ve used <InlineCode>THREE.js</InlineCode> to add
-          some more details to the scene - perhaps I&apos;ll write a post later
-          about how to do this. See the ongoing result{' '}
+          some more details to the scene - see the rest of the scene:{' '}
           <a className='text-info' href='/scene_2'>here</a>.
         </p>
       </div>

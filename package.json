@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-three/drei": "^9.106.0",
     "@react-three/fiber": "^8.16.7",
+    "chart.js": "^4.4.3",
     "gatsby": "5.13.6",
     "gatsby-adapter-netlify": "^1.1.6",
     "gatsby-plugin-image": "^3.13.1",
@@ -25,6 +26,7 @@
     "gatsby-transformer-sharp": "^5.13.1",
     "highlight.js": "^11.9.0",
     "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "sass": "^1.77.4"
   },
