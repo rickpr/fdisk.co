@@ -74,6 +74,8 @@ const AlephiumMining = (): JSX.Element => {
           Now, we can predict the price using a similar technique.
           <h3 className='text-accent'>Price Predictions</h3>
           <Line data={PricePredictions} />
+          See the code use to predict the prices:
+          <CodeFile filename='price_predictor.py' klassName='PricePredictor' />
         </p>
         <h2 className='flex items-center text-error'>
           2. Calculating the rewards over time
