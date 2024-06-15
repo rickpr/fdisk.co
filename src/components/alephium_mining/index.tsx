@@ -8,6 +8,7 @@ import HashratePredictions from 'files/hashrate_prediction.json'
 import PricePredictions from 'files/price_prediction.json'
 import ProfitPredictions from 'files/profit_prediction.json'
 import RewardCurve from 'images/reward_curve.webp'
+import TimeRewardCurve from 'images/time_reward_curve.webp'
 
 Chart.register(CategoryScale)
 Chart.register(LinearScale)
@@ -83,7 +84,10 @@ const AlephiumMining = (): JSX.Element => {
         <p>
           Alephium rewards are much more complex than Bitcoin. They are based on
           the total hashrate of the network, and have an upward and downward curve.
-          <img src={RewardCurve} alt='Alephium reward curve' />
+          <img src={RewardCurve} alt='Hashrate reward curve' />
+          To complicate matters there is also a time-based reward, which is a linearly
+          decreasing reward over time.
+          <img src={TimeRewardCurve} alt='Time reward curve' />
           The developers have written an excellent{' '}
           <a href='https://medium.com/@alephium/alephium-block-rewards-72d9fb9fde33' target='_blank' rel='noreferrer'>
             blog post
