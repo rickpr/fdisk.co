@@ -67,6 +67,10 @@
   "keywords": [
     "gatsby"
   ],
+  "overrides": {
+    "msgpackr": "^1.10.0",
+    "lmdb": "^2.8.0"
+  },
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
     "build": "gatsby build",
